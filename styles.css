@@ -6,9 +6,12 @@ body {
   flex-direction: column;
 }
 
+/*header*/
+
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px 400px; 
   background-color: ;
 }
 
@@ -29,4 +32,24 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+/*main part*/
+
+.main-part {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 300px;
+  gap: 16px;
+}
+
+.main-part-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.sitting-me-img {
+  height: 600px;
+  width: auto;
 }
