@@ -54,7 +54,7 @@ li a:hover::after {
   width: 100%;
 }
 
-/*main section*/
+/*index page main section*/
 
 .main {
   display: flex;  
@@ -117,4 +117,37 @@ li a:hover::after {
 
 .main-left button {
   margin: 0 20px;
+}
+
+/*contact page main section*/
+
+.contact-container {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  height: calc(100vh - 100px);    
+  line-height: 31.5px;
+  margin: 100px 0;
+}
+
+.contact-me h1 {
+  font-weight: 700;
+  font-size: 54px;
+  color: #133b4f;
+  padding-bottom: 100px;  
+}
+
+.contact-me h1 span {
+  color: #fca70c;
+}
+
+.contact-info p {
+  font-size: 24px;
+  color: #3a3a3a;
+  padding: 15px 0;
+}
+
+.contact-info p span {
+  font-weight: 700;
+  color: #133b4f; 
 }
