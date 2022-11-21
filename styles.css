@@ -7,3 +7,48 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+/*header*/
+
+.header {
+  height: 100px;  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #133b4f;
+}
+
+.logo span {
+  color: #fca70c;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #3a3a3a;
+  display: inline-block;
+}
+
+li a::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0;
+  background: #c4c4f7;
+  transition: all .5s;
+}
+
+li a:hover::after {
+  width: 100%;
+}
