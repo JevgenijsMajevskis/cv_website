@@ -63,10 +63,6 @@ li a:hover::after {
   justify-content: center; 
 }
 
-.main-right {
-  background-color: ;
-}
-
 .main-img {
   max-width: 670px;
   height: auto;
