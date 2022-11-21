@@ -28,9 +28,8 @@
   <!--main part-->
   <div class="main">
     <div class="main-left">
-      <h1>I'm <span>Jevgenijs Majevskis</span></h1>
-      <p>You can get in touch with me if you need any help in making a 
-        website for yourself or your business</p>
+      <h1>I'm <span class="auto-input">Jevgenijs Majevskis</span></h1>
+      <p>You can get in touch with me if you need any help in making a website for yourself or your business</p>
       <button class="contactme-btn">Contact me</button>
       <button class="learnmore-btn">Learn more</button>
     </div>
@@ -38,5 +37,14 @@
       <img class="main-img" src="pics/me-sitting.jpg" alt="I am sitting on the bench">
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    let typed = new Typed(".auto-input", {
+      strings: ["Jevgenijs Majevkis", "Web Developer", "UI Designer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    })
+  </script>
 </body>
 </html>
