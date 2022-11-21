@@ -1,55 +1,9 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Montserrat', sans-serif;
-  display: flex;
-  flex-direction: column;
-}
-
-/*header*/
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 400px; 
-  background-color: ;
-}
-
-.drawn-me-img {
-  height: 100px;
-  width: auto;
-}
-
-.header-links {
-  display: flex;
-  align-items: center;
-}
-
-ul {
-  display: flex;
-  gap: 16px;
-}
-
-li {
-  list-style-type: none;
-}
-
-/*main part*/
-
-.main-part {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 300px;
-  gap: 16px;
-}
-
-.main-part-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-}
-
-.sitting-me-img {
-  height: 600px;
-  width: auto;
 }
