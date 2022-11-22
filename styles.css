@@ -151,3 +151,62 @@ li a:hover::after {
   font-weight: 700;
   color: #133b4f; 
 }
+
+/*about page main section*/
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 31.5px;
+  margin: 100px 0;
+}
+
+.about-headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.about-headings h1 {
+  font-weight: 700;
+  font-size: 54px;
+  color: #133b4f;
+  padding-bottom: 50px;
+}
+
+.about-headings h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #fca70c;
+  padding-bottom: 100px;
+}
+
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+}
+
+.about-myself h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #133b4f;
+  padding-bottom: 50px;
+}
+
+.about-myself p {
+  font-size: 18px;
+  color: #3a3a3a;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.about-myself p a {
+  color: #133b4f;
+}
+
+.about-myself p span {
+  color: #fca70c;
+}
