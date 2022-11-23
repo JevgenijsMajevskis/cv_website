@@ -1,13 +1,4 @@
-// auto type
-
-let typed = new Typed(".auto-input", {
-  strings: ["Jevgenijs Majevksis", "Web Developer", "UI Designer"],
-  typeSpeed: 100,
-  backSpeed: 100,
-  loop: true
-});
-
-// go to top button 
+// to the top button
 
 let topButton = document.getElementById("top-btn");
 
@@ -27,3 +18,6 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// FAQ
+
