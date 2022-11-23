@@ -29,19 +29,19 @@ body {
   color: #fca70c;
 }
 
-ul {
+.header-links ul {
   display: flex;
   list-style-type: none;
 }
 
-ul li a {
+.header-links ul li a {
   padding: 0 20px;
   text-decoration: none;
   color: #3a3a3a;
   display: inline-block;
 }
 
-li a::after {
+.header-links li a::after {
   content: '';
   display: block;
   height: 4px;
@@ -50,7 +50,7 @@ li a::after {
   transition: all .5s;
 }
 
-li a:hover::after {
+.header-links li a:hover::after {
   width: 100%;
 }
 
@@ -360,4 +360,137 @@ li a:hover::after {
 
 .active:after {
   content: "\2796";
+}
+
+/*cv page main section*/
+
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 31.5px;
+  margin: 100px 0;
+}
+
+.cv-headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cv-headings h1 {
+  font-weight: 700;
+  font-size: 54px;
+  color: #133b4f;
+  padding-bottom: 50px;
+}
+
+.cv-headings h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #fca70c;
+  padding-bottom: 100px
+}
+
+.cv-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 65%;
+}
+
+.cv-links h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #133b4f;
+  padding-bottom: 50px;
+}
+
+.cv-links ul {
+  list-style-type: none;
+  font-size: 18px;
+  color: #3a3a3a;
+}
+
+.cv-links ul li span {
+  color: #133b4f;
+  font-weight: 700;
+}
+
+.cv-workexperince {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 65%
+}
+
+.cv-workexperince h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #133b4f;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.cv-workexperince p {
+  font-size: 18px;
+  color: #3a3a3a;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.cv-workexperince p a {
+  color: #133b4f;
+}
+
+.cv-languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 65%;
+}
+
+.cv-languages h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #133b4f;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.cv-languages p {
+  font-size: 18px;
+  color: #3a3a3a;
+}
+
+.cv-languages p span {
+  font-weight: 700;
+}
+
+.cv-languages ul {
+  list-style-type: none;
+  font-size: 18px;
+  color: #3a3a3a;
+}
+
+.cv-digital-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 65%
+}
+
+.cv-digital-skills h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #133b4f;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.cv-digital-skills p {
+  font-size: 18px;
+  color: #3a3a3a;
+  padding-bottom: 15px;
+  text-align: justify;
 }
